@@ -1,7 +1,7 @@
 # 💻 Portfólio Pessoal  
 
 Bem-vindo(a) ao meu portfólio! 🚀  
-Este projeto foi criado como prática de **HTML5, CSS3 e JavaScript**, com o intuito de aprender, evoluir e mostrar alguns dos meus primeiros passos no desenvolvimento web.  
+Este projeto foi criado como prática de **HTML5, CSS3**, com o intuito de aprender, evoluir e mostrar alguns dos meus primeiros passos no desenvolvimento web.  
 
 Aqui você encontra minhas páginas de apresentação, informações sobre mim e alguns projetos iniciais que desenvolvi como parte da minha jornada na área de tecnologia.  
 
@@ -16,7 +16,7 @@ Além disso, funciona como um espaço para treinar e documentar minha evolução
 
 ## 🌍 Deploy  
 
-🔗 Acesse o portfólio online: [**paulohassad.github.io**](https://paulohassad.github.io)  
+🔗 Acesse o portfólio online: [**site**](site)  
 
 ---
 
