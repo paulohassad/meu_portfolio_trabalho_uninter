@@ -14,12 +14,6 @@ Além disso, funciona como um espaço para treinar e documentar minha evolução
 
 ---
 
-## 🌍 Deploy  
-
-🔗 Acesse o portfólio online: [**site**](site)  
-
----
-
 ## 🚀 Tecnologias Utilizadas  
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
