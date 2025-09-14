@@ -27,17 +27,3 @@ Além disso, funciona como um espaço para treinar e documentar minha evolução
 
 
 ---
-
-## 📂 Estrutura  
-
-- **index.html** → Página inicial  
-- **contato.html** → Formas de contato  
-- **formacao.html** → Formação acadêmica  
-- **portfolio.html** → Projetos desenvolvidos  
-
----
-
-## 📌 Observações  
-
-Este repositório será atualizado conforme avanço nos estudos e novos projetos forem criados.  
-Sinta-se à vontade para deixar dicas ou sugestões. 😃  
