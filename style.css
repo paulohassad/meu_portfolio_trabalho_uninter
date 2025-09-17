@@ -44,8 +44,9 @@ body {
   list-style: none;
 }
 .menu a{
+  font-family: "Krona One", sans-serif;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
   color: #BF9C34;
   transition: 0.3s;
@@ -76,7 +77,7 @@ body {
   font-style: normal;
   font-size: 30px;
   color: #BF9C34;
-  padding: 0 0 10px;
+  padding: 0 0 30px;
 }
 
 .img-profile{
@@ -93,6 +94,7 @@ body {
   display: flex;
   margin-top: 30px;
   gap: 40px;
+  font-family: "Krona One", sans-serif;
   font-size: 20px;
   font-weight: bold;
   transition: 0.3s;
