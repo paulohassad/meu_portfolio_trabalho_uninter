@@ -5,6 +5,23 @@
   padding: 0;
 }
 
+/* Para dispositivos moveis */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column; 
+    gap: 30px;
+  }
+
+  .text-about {
+    text-align: center; 
+  }
+
+  .social-links{
+    justify-content: center;
+  }
+}
+
+
 body {
   box-sizing: border-box;
   height: 100vh;
@@ -17,6 +34,7 @@ body {
   height: 50px;
   background-color: #735D63;
 }
+
 /* Menu de navegação */
 .menu ul{
   display: flex;
@@ -35,7 +53,7 @@ body {
 .menu a:hover{
   color: #ebd36a;
 }
-
+@media (max-width: 768px){}
 /* Sobre mim */
 .about {
   display: flex;
@@ -55,8 +73,9 @@ body {
 }
 
 .img-profile{
-  width: 280px;
-  height: 280px;
+  width: 100%;
+  max-width: 300px; 
+  aspect-ratio: 1/1; /* mantém quadrado */
   object-fit: cover;
   border-radius: 8px;
 }
@@ -101,4 +120,5 @@ body {
 
 /* Rodapé da página */
 footer {
+  
 }
