@@ -1,0 +1,104 @@
+/* Paleta: #0D0D0D Preto #737373 Cinza #F2F2F2 Branco #1E2940 Azul #101726 Azul-marinho */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #1D1F26;
+  color: #F2F2F2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.borda{
+  width: 100%;
+  height: 50px;
+  background-color: #735D63;
+}
+/* Menu de navegação */
+.menu ul{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+.menu a{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #BF9C34;
+  transition: 0.3s;
+}
+.menu a:hover{
+  color: #ebd36a;
+}
+
+/* Sobre mim */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+  gap: 100px;
+ }
+
+.text-about{
+   max-width: 615px;
+ }
+.text-about h1{
+  font-weight: bold;
+  color: #BF9C34;
+  padding: 0 0 10px;
+}
+
+.img-profile{
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Redes sociais */
+.social-links{
+  display: flex;
+  margin-top: 30px;
+  gap: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.social-links-linkedin{
+  background-color: #0E0D26;
+  color: #BF9C34;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.2s;
+  
+}
+.social-links-linkedin:hover{
+  color: #ebd36a;
+}
+
+.social-links-github{
+  background-color: #0E0D26;
+  color: #BF9C34;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.2s;
+}
+.social-links-github:hover{
+  color: #ebd36a;
+};
+
+
+/* Rodapé da página */
+footer {
+}
