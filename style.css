@@ -57,7 +57,7 @@ body {
   display: inline-block;
   padding: 10px;
   font-family: var(--font-strong);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-secondary);
@@ -89,7 +89,7 @@ body {
 .text-about h1{
   font-family: var(--font-strong);
   font-weight: 400;
-  font-size: 30px;
+  font-size: 2rem;
   color:var(--color-secondary);
 }
 
@@ -107,7 +107,7 @@ body {
   display: flex;
   font-family: var(--font-strong);
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   gap: 40px;
 }
 
@@ -138,7 +138,7 @@ body {
 footer{
   color: var(--color-tertiary);
   background: var(--color-secondary);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   font-family: var(--font-text);
   text-align: center;
