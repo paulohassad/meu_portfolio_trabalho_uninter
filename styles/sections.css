@@ -1,0 +1,30 @@
+#about {
+  justify-content: center;
+  text-align: center;
+  
+  h1 {
+    font: var(--font-title);
+  }
+
+  h3 {
+    font: var(--font-menu);
+    color: var(--title-color);
+  }
+
+  p {
+    margin: auto;
+    padding-block: 20px;
+  }
+  
+  img {
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 4px;
+    width: 170px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 3px solid var(--title-color);
+    border-radius: 50%;
+  }
+}
+
