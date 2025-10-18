@@ -1,22 +1,20 @@
 header {
-  display: flex;
   padding-block: 80px;
   justify-content: center;
-}
-
-ul {
-  gap: 80px;
-  display: flex;
-  justify-content: space-between;
   
-  li a {
-    font: var(--font-menu);
-    text-decoration: none;
-    color: var(--title-color);
-    transition: 0.2s;
-
-    &:hover{
-      color: var(--hover-color);
+  ul {
+    display: flex;
+    gap: 80px;
+    
+    a {
+     font: var(--font-menu);
+     text-decoration: none;
+     color: var(--title-color);
+     transition: 0.2s;
+  
+      &:hover{
+        color: var(--hover-color);
+      }
     }
   }
 }
