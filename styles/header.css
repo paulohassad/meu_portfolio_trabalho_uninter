@@ -1,20 +1,40 @@
 header {
-  padding-block: 80px;
+  padding-block: 60px;
   justify-content: center;
+  position: relative;
+  
   
   ul {
     display: flex;
     gap: 80px;
     
     a {
-     font: var(--font-menu);
-     text-decoration: none;
-     color: var(--title-color);
-     transition: 0.2s;
-  
-      &:hover{
+      font: var(--font-menu);
+      text-decoration: none;
+      color: var(--title-color);
+      transition: 0.2s;
+      position: relative;
+      
+      &:hover {
         color: var(--hover-color);
       }
-    }
+      
+      &::after {
+        content: " ";
+        width: 0%;
+        height: 2px;
+        background-color: var(--hover-color);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.3s ease-in-out;
+      }
+      
+      &:hover::after {
+        width: 100%;
+      }
+    }    
   }
 }
+
+

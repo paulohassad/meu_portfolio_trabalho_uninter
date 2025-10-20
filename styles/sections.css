@@ -10,7 +10,7 @@
   p {
     margin: auto;
     padding-block: 80px;
-    width: 900px;
+    max-width: 900px;
 
   }
   
@@ -65,7 +65,7 @@
   padding-block: 80px;
   
   .card {
-    width: 530px;
+    max-width: 530px;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, auto);
@@ -91,7 +91,6 @@
     padding: 12px 12px;
     background-color: rgba(135, 135, 140, 0.20);
     border-radius: 12px 12px 12px 12px;
-    /* box-shadow: 1px 1px 3px rgb(92, 90, 84); */
     
     
     p {
@@ -102,6 +101,7 @@
     a {
       font: 500 14px/170% var(--font-family);
       color: var(--title-color);
+      transition: 0.1s;
       
       &:hover {
         background-color: var(--bg-color);
@@ -150,6 +150,7 @@
     width: 280px;
     border-radius: 16px;
     background-color: rgba(135, 135, 140, 0.20);
+    transition: 0.2s;
     
     
     img {
