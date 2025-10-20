@@ -47,5 +47,6 @@ span {
 a {
   text-decoration: none;
   color: inherit;
+  align-items: center;
 }
 

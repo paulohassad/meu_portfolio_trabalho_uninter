@@ -101,7 +101,7 @@
       
       &:hover {
         background-color: var(--bg-color);
-        padding: 4px 8px;
+        padding: 4px 16px;
         border-radius: 12px;
         color: var(--hover-color);
       }
@@ -111,4 +111,46 @@
   
 }
   
+
+#socials {
+  padding-block: 80px;
+  text-align: center;
+  background-color: rgba(135, 135, 140, 0.01);
+  
+ &> div {
+    margin: 60px;
+  }
+  
+
+  p {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;    
+  }
+  
+
+  .link-socials{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px auto;
+    align-items: center;
+    padding-inline: 12px;
+    width: 280px;
+    border-radius: 16px;
+    background-color: rgba(135, 135, 140, 0.20);
+    
+    
+    img {
+      height: fit-content;
+    }
+    
+    
+    &:hover {
+      background-color: rgba(135, 135, 140, 0.10);
+    }
+  }
+  
+  
+}
 
