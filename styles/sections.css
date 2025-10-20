@@ -73,6 +73,10 @@
     gap: 20px;
     padding-top: 60px;
 
+    span {
+      color: var(--title-color);
+      font: 600 18px var(--font-family);
+    }
 
     img {
       border-radius: 10px 10px 10px 10px;
@@ -117,24 +121,32 @@
   text-align: center;
   background-color: rgba(135, 135, 140, 0.01);
   
-  &> div {
-    margin-bottom: 60px;
+  &>div {
+    margin-bottom: 48px;
+  }
+
+  a {
+    display: inline-block;
   }
   
-  p {
+  .link-socials {
+    margin: 0;
+  }
+  
+  span {
     padding: 12px;
     display: flex;
     align-items: center;
     gap: 8px;    
   }
-
-
-  .link-socials{
+  
+  
+  .link-socials-button{
     display: flex;
     justify-content: space-between;
-    margin: 18px auto;
     align-items: center;
     padding-inline: 12px;
+    margin-top: 12px;
     width: 280px;
     border-radius: 16px;
     background-color: rgba(135, 135, 140, 0.20);
