@@ -26,13 +26,14 @@
   }
 }
 
+
 #skills {
   padding-block: 80px;
   text-align: center;
   background-color: rgba(135, 135, 140, 0.01); 
   
   ul {
-    padding-block: 60px;
+    padding-top: 60px;
     gap: 30px;
   }
   
@@ -57,3 +58,57 @@
     height: 32px;
   }
 }
+
+
+#projects {
+  text-align: center;
+  padding-block: 80px;
+  
+  .card {
+    width: 530px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    margin: auto;
+    gap: 20px;
+    padding-top: 60px;
+
+
+    img {
+      border-radius: 10px 10px 10px 10px;
+      object-fit: cover;
+      padding: 12px 12px;
+    }
+  }
+
+  figure {
+    display: flex;
+    flex-flow: column;
+    padding: 12px 12px;
+    background-color: rgba(135, 135, 140, 0.20);
+    border-radius: 12px 12px 12px 12px;
+    /* box-shadow: 1px 1px 3px rgb(92, 90, 84); */
+    
+    
+    p {
+      margin-block: 12px;
+      height: 48px;
+    }
+
+    a {
+      font: 500 14px/170% var(--font-family);
+      color: var(--title-color);
+      
+      &:hover {
+        background-color: var(--bg-color);
+        padding: 4px 8px;
+        border-radius: 12px;
+        color: var(--hover-color);
+      }
+    }
+  }
+
+  
+}
+  
+

@@ -11,7 +11,7 @@
   --hover-color: #F2BB13; 
   --stroke-color: #87878C;
   --font-family: "Saira", sans-serif;
-  --font-menu: 300 18px/150% var(--font-family);
+  --font-menu: 300 22px/150% var(--font-family);
   --font-title: 700 40px/140% var(--font-family);
   --font-text: 400 16px/150% var(--font-family);
   --font-text-sm: 300 14px/150% var(--font-family);
@@ -39,6 +39,13 @@ ul {
   list-style: none;
 }
 
+span {
+  color: var(--title-color);
+  font: 600 18px var(--font-family);
+}
 
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
