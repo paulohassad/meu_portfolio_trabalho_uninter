@@ -117,23 +117,22 @@
   text-align: center;
   background-color: rgba(135, 135, 140, 0.01);
   
- &> div {
-    margin: 60px;
+  &> div {
+    margin-bottom: 60px;
   }
   
-
   p {
-    padding: 8px;
+    padding: 12px;
     display: flex;
     align-items: center;
     gap: 8px;    
   }
-  
+
 
   .link-socials{
     display: flex;
     justify-content: space-between;
-    margin: 16px auto;
+    margin: 18px auto;
     align-items: center;
     padding-inline: 12px;
     width: 280px;
@@ -149,8 +148,6 @@
     &:hover {
       background-color: rgba(135, 135, 140, 0.10);
     }
-  }
-  
-  
+  }  
 }
 
